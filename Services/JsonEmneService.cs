@@ -18,7 +18,7 @@ namespace geometrifessor.Services
 
         private string JsonFileName
         {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "Emner.json"); }
+            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "emner.json"); }
         }
 
         public IEnumerable<Emner> GetEmner()
