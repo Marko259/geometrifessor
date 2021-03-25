@@ -1,0 +1,20 @@
+[
+  {
+    "id": "retvinklet-trekanter",
+    "img": "https://matnat.dk/media/images/retvinklet%20trekant.png",
+    "title": "Retvinklet trekanter",
+    "description": "Alt man skal vide om retvinklet trekanter"
+  },
+  {
+    "id": "vilkårlige-trekanter",
+    "img": "https://www.regneregler.dk/g_images/abc-trekant-1326.png",
+    "title": "Vilkårlige trekanter",
+    "description": "Alt du skal vide om vilkårlige trekanter"
+  },
+  {
+    "id": "firkanter",
+    "img": "https://www.webmatematik.dk/media/6472/masterfile_standalone-24_357x170.jpg",
+    "title": "Firkanter",
+    "description" : "Alt man skal vide om firkanter"
+  }
+]
