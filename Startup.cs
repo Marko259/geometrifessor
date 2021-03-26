@@ -25,6 +25,7 @@ namespace geometrifessor
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddServerSideBlazor();
             services.AddTransient<JsonEmneService>();
         }
 
@@ -52,6 +53,7 @@ namespace geometrifessor
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapBlazorHub();
             });
         }
     }

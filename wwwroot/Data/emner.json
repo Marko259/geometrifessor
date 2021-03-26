@@ -15,6 +15,12 @@
     "id": "firkanter",
     "img": "https://www.webmatematik.dk/media/6472/masterfile_standalone-24_357x170.jpg",
     "title": "Firkanter",
-    "description" : "Alt man skal vide om firkanter"
+    "description": "Alt man skal vide om firkanter"
+  },
+  {
+    "id": "femkanter",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/6b/SimplePentagon.png",
+    "title": "Femkanter",
+    "description": "Alt man skal vide om Femkanter"
   }
 ]

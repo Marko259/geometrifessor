@@ -1,4 +1,5 @@
 ﻿@page
+@using geometrifessor.Components
 @model ViewModel
 @{
     ViewData["Title"] = "Emner";
@@ -8,15 +9,7 @@
 <p>Vælg det emne du gerne vil lære mere om.</p>
 <br />
 
-<div class="card-columns">
-    @foreach (var emne in Model.Emne)
-    {
-        <div class="card">
-            <div class="card-img" style="height: 330px; background-image: url('@emne.Image');"></div>
-            <div class="card-body">
-                <hr />
-                <h5 class="card-title">@emne.Title</h5>
-            </div>
-        </div>
-    }
-</div>
+@(await Html.RenderComponentAsync<Emneliste>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"></script>
+

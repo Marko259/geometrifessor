@@ -1,0 +1,58 @@
+@using Microsoft.AspNetCore.Components.Web
+@using geometrifessor.Models
+@using geometrifessor.Services
+@inject JsonEmneService EmneService
+<div class="container">
+    <div class="row">
+        @foreach (var emne in EmneService.GetEmner())
+        {
+            <div class="col-4 d-flex align-self-stretch">
+                <div class="card shadow-sm mb-4">
+                    <img src="@emne.Image" class="card-img-top" alt=""/>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-uppercase"><button data-toggle="modal" data-target="#productModal" class="btn btn-primary" @onclick="(e => SelectEmne(emne.Id))">@emne.Title</button></h5>
+                        <p class="text-muted">@emne.Description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@if (selectedEmne != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedEmne.Title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <img src="@selectedEmne.Image" class="card-img-top" alt="" />
+                        <div class="card-body">
+                            <p class="card-text">@selectedEmne.Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+@code
+{
+    Emner selectedEmne;
+    string selectedEmneId;
+
+    void SelectEmne(string productId)
+    {
+        selectedEmneId = productId;
+        selectedEmne = EmneService.GetEmner().First(x => x.Id == productId);
+    }
+}
