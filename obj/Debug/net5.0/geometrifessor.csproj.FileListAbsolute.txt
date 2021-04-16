@@ -117,10 +117,10 @@ C:\Users\Markus\Documents\GitHub\geometrifessor\bin\Debug\net5.0\runtimes\win-ar
 C:\Users\Markus\Documents\GitHub\geometrifessor\bin\Debug\net5.0\bundleconfig.json
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\View.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Emne.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\geometrifessor.RazorComponent.input.cache
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\RazorDeclaration\Components\Emneliste.razor.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\geometrifessor.RazorComponent.output.cache
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\RazorDeclaration\geometrifessor.dll
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Components\Emneliste.razor.g.cs
+C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Emner.cshtml.g.cs
