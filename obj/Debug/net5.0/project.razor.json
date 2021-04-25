@@ -15687,6 +15687,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\Geometri.cshtml",
+      "TargetPath": "Pages\\Geometri.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"

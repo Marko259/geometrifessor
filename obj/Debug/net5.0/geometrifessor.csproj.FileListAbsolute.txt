@@ -124,3 +124,4 @@ C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\geometrifessor.
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\RazorDeclaration\geometrifessor.dll
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Components\Emneliste.razor.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Emner.cshtml.g.cs
+C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Geometri.cshtml.g.cs
