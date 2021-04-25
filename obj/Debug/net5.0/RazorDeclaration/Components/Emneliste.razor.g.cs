@@ -13,21 +13,21 @@ namespace geometrifessor.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste.razor"
+#line 1 "C:\Users\YooNazZ\Desktop\geometrifessor\Components\Emneliste.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste.razor"
+#line 2 "C:\Users\YooNazZ\Desktop\geometrifessor\Components\Emneliste.razor"
 using geometrifessor.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste.razor"
+#line 3 "C:\Users\YooNazZ\Desktop\geometrifessor\Components\Emneliste.razor"
 using geometrifessor.Services;
 
 #line default
@@ -41,7 +41,11 @@ using geometrifessor.Services;
         }
         #pragma warning restore 1998
 #nullable restore
+<<<<<<< HEAD
 #line 49 "C:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste.razor"
+=======
+#line 50 "C:\Users\YooNazZ\Desktop\geometrifessor\Components\Emneliste.razor"
+>>>>>>> 0c22a5f572c601f11760944b9ab0bec87b5e3911
  
     Emner selectedEmne;
     string selectedEmneId;
