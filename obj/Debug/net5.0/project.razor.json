@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 561337825,
+        "Kind": "Components.Component",
+        "Name": "geometrifessor.Components.Beregnerliste",
+        "AssemblyName": "geometrifessor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Beregnerliste"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "geometrifessor.Components.Beregnerliste"
+        }
+      },
+      {
+        "HashCode": 497973000,
+        "Kind": "Components.Component",
+        "Name": "geometrifessor.Components.Beregnerliste",
+        "AssemblyName": "geometrifessor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "geometrifessor.Components.Beregnerliste"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "geometrifessor.Components.Beregnerliste",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -534040508,
         "Kind": "Components.Component",
         "Name": "geometrifessor.Components.Emneliste",
@@ -15672,23 +15705,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\Credit.cshtml",
+      "TargetPath": "Pages\\Credit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\Geometri.cshtml",
-      "TargetPath": "Pages\\Geometri.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15700,6 +15728,11 @@
       "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Components\\Beregnerliste.razor",
+      "TargetPath": "Components\\Beregnerliste.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\_ViewImports.cshtml",
@@ -15715,6 +15748,11 @@
       "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Components\\Emneliste.razor",
       "TargetPath": "Components\\Emneliste.razor",
       "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\Beregner.cshtml",
+      "TargetPath": "Pages\\Beregner.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

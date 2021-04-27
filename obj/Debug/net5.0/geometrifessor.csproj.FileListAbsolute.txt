@@ -25,7 +25,6 @@ C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\geometrifessor.
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\geometrifessor.RazorCoreGenerate.cache
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -125,7 +124,6 @@ C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\RazorDeclaratio
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Components\Emneliste.razor.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Emner.cshtml.g.cs
 <<<<<<< HEAD
-C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Geometri.cshtml.g.cs
 =======
 C:\Users\YooNazZ\Desktop\geometrifessor\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\YooNazZ\Desktop\geometrifessor\bin\Debug\net5.0\appsettings.json
@@ -254,3 +252,7 @@ C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\ref\geometrifessor.dll
 C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\geometrifessor.pdb
 C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\geometrifessor.genruntimeconfig.cache
 >>>>>>> 0c22a5f572c601f11760944b9ab0bec87b5e3911
+C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\RazorDeclaration\Components\Beregnerliste.razor.g.cs
+C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Components\Beregnerliste.razor.g.cs
+C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Beregner.cshtml.g.cs
+C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Credit.cshtml.g.cs

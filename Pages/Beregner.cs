@@ -7,17 +7,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
 
 namespace geometrifessor.Pages
 {
-    public class GeoModel : PageModel
+    public class BeregnModel : PageModel
     {
-        private readonly ILogger<GeoModel> _logger;
+        private readonly ILogger<BeregnModel> _logger;
         public JsonEmneService EmneService;
         public IEnumerable<Emner> Emne { get; private set; }
 
-        public GeoModel(ILogger<GeoModel> logger, JsonEmneService emneService)
+        public BeregnModel(ILogger<BeregnModel> logger, JsonEmneService emneService)
         {
             _logger = logger;
             EmneService = emneService;

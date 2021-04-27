@@ -13,48 +13,33 @@ namespace geometrifessor.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste.razor"
+#line 1 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Beregnerliste.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste.razor"
+#line 2 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Beregnerliste.razor"
 using geometrifessor.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste.razor"
+#line 3 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Beregnerliste.razor"
 using geometrifessor.Services;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class Emneliste : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Beregnerliste : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 49 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste.razor"
- 
-    Emner selectedEmne;
-    string selectedEmneId;
-
-    void SelectEmne(string productId)
-    {
-        selectedEmneId = productId;
-        selectedEmne = EmneService.GetEmner().First(x => x.Id == productId);
-    }
-
-#line default
-#line hidden
-#nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private JsonEmneService EmneService { get; set; }
     }
 }

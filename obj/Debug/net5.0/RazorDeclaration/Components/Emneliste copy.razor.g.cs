@@ -41,7 +41,7 @@ using geometrifessor.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 51 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste copy.razor"
+#line 49 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Emneliste copy.razor"
  
     Emner selectedEmne;
     string selectedEmneId;
