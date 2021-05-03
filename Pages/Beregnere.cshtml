@@ -1,0 +1,15 @@
+﻿@page
+@using geometrifessor.Components
+@model BeregnModel
+@{
+    ViewData["Title"] = "Beregnere";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Vælg den beregner du gerne vil bruge.</p>
+<br />
+
+@(await Html.RenderComponentAsync<Beregnerliste>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"></script>
+

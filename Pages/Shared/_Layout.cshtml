@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#Scrollspy" data-offset="1">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" asp-area="" asp-page="/Index">Geometrifessor</a>
@@ -28,7 +28,7 @@
                         <a class="nav-link" asp-area="" asp-page="/Emner">Emner</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-page="/Beregner">Beregnere</a>
+                        <a class="nav-link" asp-area="" asp-page="/Beregnere">Beregnere</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Credit">Credit</a>
@@ -48,6 +48,18 @@
             &copy; @DateTime.Now.Year - Geometrifessor - <a asp-area="" asp-page="/Credit">Credit</a>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.nav-link').forEach(link => {
+                if (link.getAttribute('href').toLowerCase() === location.pathname.toLowerCase()) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        })
+    </script>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

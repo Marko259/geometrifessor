@@ -13,21 +13,21 @@ namespace geometrifessor.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Beregnerliste.razor"
+#line 1 "C:\Users\Markus\Documents\GitHub\geometrifessor\Components\Beregnerliste.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Beregnerliste.razor"
+#line 2 "C:\Users\Markus\Documents\GitHub\geometrifessor\Components\Beregnerliste.razor"
 using geometrifessor.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\Users\Markus\Documents\GitHub\geometrifessor\Components\Beregnerliste.razor"
+#line 3 "C:\Users\Markus\Documents\GitHub\geometrifessor\Components\Beregnerliste.razor"
 using geometrifessor.Services;
 
 #line default

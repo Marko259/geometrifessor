@@ -256,3 +256,4 @@ C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\RazorDeclaratio
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Components\Beregnerliste.razor.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Beregner.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Credit.cshtml.g.cs
+C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Beregnere.cshtml.g.cs
