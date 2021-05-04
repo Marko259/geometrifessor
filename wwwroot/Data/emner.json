@@ -3,28 +3,28 @@
     "id": "retvinklet-trekanter",
     "img": "https://matnat.dk/media/images/retvinklet%20trekant.png",
     "title": "Retvinklet trekanter",
-    "description": "Alt man skal vide om retvinklet trekanter",
+    "description": "En trekant. hvor en af vinklerne er 90º. kaldes retvinklet. Når man tegner en ret vinkel, plejer man at markere. at den er ret ved at tegne den firkantet i stedet for buet. I retvinklede trekanter gælder pythagoras. altså a^2+b^2=c^2",
     "shortdescription": "Alt du skal vide om retvinklet trekanter"
   },
   {
     "id": "vilkårlige-trekanter",
     "img": "https://www.regneregler.dk/g_images/abc-trekant-1326.png",
     "title": "Vilkårlige trekanter",
-    "description": "Alt du skal vide om vilkårlige trekanter",
+    "description": "Vilkårlige trekanter er alle polygoner. der har tre sider og en vinkelsum på 180 grader. En vilkårlig trekant er derfor en hvilken som helst trekant. du kan forestille dig på en flad overflade. For de vilkårlige trekanter. der ikke indeholder rette vinkler, er man nødt til at bruge enten sinusrelationen eller cosinusrelationen for at beregne sider og vinkler.",
     "shortdescription": "Alt man skal vide om vilkårlige trekanter"
   },
   {
     "id": "firkanter",
     "img": "https://www.webmatematik.dk/media/6472/masterfile_standalone-24_357x170.jpg",
     "title": "Firkanter",
-    "description": "Alt man skal vide om firkanter",
+    "description": "Begrebet firkant dækker alle de geometriske figurer der har a) fire sider og b) fire vinkler. Yderligere gælder der at 1. Summen af vinkler i en firkant altid er 360º og 2. Hver firkant har to diagonaler.",
     "shortdescription": "Alt du skal vide om firkanter"
   },
   {
     "id": "femkanter",
     "img": "https://upload.wikimedia.org/wikipedia/commons/6/6b/SimplePentagon.png",
     "title": "Femkanter",
-    "description": "Alt man skal vide om Femkanter",
+    "description": "En femkant eller et pentagon, er en figur med fem sider og fem vinkler. En femkant er dermed et polygon med fem hjørner. I en femkant er vinkelsummen 540º. Så hvis man måler alle vinkler og lægger dem sammen får man 540º ligemeget hvordan femkanten ser ud.",
     "shortdescription": "Alt du skal vide om Femkanter"
   }
 ]

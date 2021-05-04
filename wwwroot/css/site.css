@@ -90,13 +90,19 @@ body {
   line-height: 60px;
   /* Vertically center the text there */
 }
-
+/*
 ul.nav-pills {
   position: fixed;
-}
+}*/
 
 .st0 {
   fill: #ffffff88;
   stroke: #000000;
   stroke-miterlimit: 10;
+}
+
+.scrollspy {
+  position: relative;
+  height: 500px;
+  overflow-y: auto;
 }
