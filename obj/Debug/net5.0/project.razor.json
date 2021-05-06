@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -534040508,
-        "Kind": "Components.Component",
-        "Name": "geometrifessor.Components.Emneliste",
-        "AssemblyName": "geometrifessor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Emneliste"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "geometrifessor.Components.Emneliste"
-        }
-      },
-      {
-        "HashCode": 1368460138,
-        "Kind": "Components.Component",
-        "Name": "geometrifessor.Components.Emneliste",
-        "AssemblyName": "geometrifessor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "geometrifessor.Components.Emneliste"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "geometrifessor.Components.Emneliste",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 561337825,
         "Kind": "Components.Component",
         "Name": "geometrifessor.Components.Beregnerliste",
@@ -74,6 +41,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "geometrifessor.Components.Beregnerliste",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -534040508,
+        "Kind": "Components.Component",
+        "Name": "geometrifessor.Components.Emneliste",
+        "AssemblyName": "geometrifessor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Emneliste"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "geometrifessor.Components.Emneliste"
+        }
+      },
+      {
+        "HashCode": 1368460138,
+        "Kind": "Components.Component",
+        "Name": "geometrifessor.Components.Emneliste",
+        "AssemblyName": "geometrifessor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "geometrifessor.Components.Emneliste"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "geometrifessor.Components.Emneliste",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
