@@ -106,3 +106,18 @@ ul.nav-pills {
   height: 500px;
   overflow-y: auto;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+#side .nav-link.active,
+#side .nav-link:hover,
+#side .nav-link:focus{
+  color: #111;
+  border-bottom: 1px #000 dashed;
+}
+
+.bg {
+  background: radial-gradient(blue, black, darkred, black, purple)
+}
