@@ -3,88 +3,103 @@
 @using geometrifessor.Services
 @inject JsonEmneService EmneService
 <div class="container">
-    <div class="container position-relative" id="content">
+    <div class="container position-relative">
         <div class="row h-100 mt-5">
             <aside class="col-md-3 bg-light" id="left">
                 <div class="mt-5 mb-3 sticky-top" id="side">
-                    <ul class="nav flex-md-column flex-row justify-content-between" id="sidenav">
-                        <li class="nav-item"><a href="?#retvinklet-trekanter" class="nav-link pl-0 active">Retvinklet trekanter</a></li>
-                        <li class="nav-item"><a href="?#vilkårlige-trekanter" class="nav-link pl-0">Vilkårlig trekanter</a></li>
-                        <li class="nav-item"><a href="?#firkanter" class="nav-link pl-0">Firkanter</a></li>
-                        <li class="nav-item"><a href="?#femkanter" class="nav-link pl-0">Femkanter</a></li>
-                    </ul>
+                    <nav class="nav flex-md-column flex-row justify-content-between" id="Scrollspy">
+                        <ul class="nav nav-pills flex-column">
+                            <h1>Emner</h1>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#retvinklet-trekanter">Retvinklet trekanter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#vilkårlige-trekanter">Vilkårlige trekanter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#firkanter">Firkanter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#femkanter">Femkanter</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </aside>
-            <main class="col py-5" data-spy="scroll" data-target="#sidenav" data-offset="80">
+            <div class="col py-5">
                 <div class="row position-relative">
                     <div class="col">
                         <div class="tab-content py-3 position-relative">
                             <div class="tab-pane active position-relative" id="tab1" role="tabpanel">
                                 @foreach (var emne in EmneService.GetEmner())
                                 {
-                                    <div class="anchor" id="@emne.Id"></div>
-                                    <h1>@emne.Title</h1>
-                                    @if (emne.Id == "retvinklet-trekanter")
-                                    {
-                                        <h4>Indtast dine to værdier</h4>
+                                    <div id="@emne.Id">
+                                        <h1>@emne.Title</h1>
+                                        @if (emne.Id == "retvinklet-trekanter")
+                                        {
+                                            <h4>Indtast dine to værdier</h4>
 
-                                        <form>
-                                            <div>linje a <input type="number" id="a"></div>
-                                            <div>linje b <input type="number" id="b"></div><br />
-                                            <input class="btn btn-primary" type="reset">
-                                            <button class="btn btn-primary" onclick="beregnC()">Beregn</button>
-                                        </form>
-                                        <p id="cer"></p>
-                                        <p id="Areal"></p>
+                                            <form>
+                                                <div>linje a <input type="number" id="a"></div>
+                                                <div>linje b <input type="number" id="b"></div><br />
+                                                <input class="btn btn-primary" type="reset">
+                                                <button class="btn btn-primary" onclick="beregnC()">Beregn</button>
+                                            </form>
+                                            <p id="cer"></p>
+                                            <p id="Areal"></p>
 
-                                        <svg version="1.1" x="0px" y="0px" viewBox="0 0 300 300" width="300px" height="300px">
-                                            <polygon id="retvinklettrekant" class="st0" points="10,10 10,100 100,100 " />
-                                            <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
-                                </svg>
-                                    }
-                                    else if (emne.Id == "vilkårlige-trekanter")
-                                    {
-                                        <h2>Ligebenet trekant</h2>
+                                            <svg version="1.1" x="0px" y="0px" viewBox="0 0 300 300" width="300px"
+                                        height="300px">
+                                                <polygon id="retvinklettrekant" class="st0" points="10,10 10,100 100,100 " />
+                                                <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
+                                    </svg>
+                                        }
+                                        else if (emne.Id == "vilkårlige-trekanter")
+                                        {
+                                            <h2>Ligebenet trekant</h2>
 
-                                        <h4>Indtast dine værdier</h4>
+                                            <h4>Indtast dine værdier</h4>
 
-                                        <form>
-                                            <div>linje a <input type="number" id="vilkårlig-a"></div>
-                                            <div>linje b <input type="number" id="vilkårlig-b"></div><br />
-                                            <input class="btn btn-primary" type="reset">
-                                            <button class="btn btn-primary" onclick="beregnBen()">Beregn</button>
-                                        </form>
-                                        <p id="vilkårlig-cer"></p>
-                                        <p id="Areal"></p>
+                                            <form>
+                                                <div>linje a <input type="number" id="vilkårlig-a"></div>
+                                                <div>linje b <input type="number" id="vilkårlig-b"></div><br />
+                                                <input class="btn btn-primary" type="reset">
+                                                <button class="btn btn-primary" onclick="beregnBen()">Beregn</button>
+                                            </form>
+                                            <p id="vilkårlig-cer"></p>
+                                            <p id="Areal"></p>
 
-                                        <svg version="1.1" x="0px" y="0px" viewBox="0 0 300 300" width="300px" height="300px">
-                                            <polygon id="ligebenettrekant" class="st0" points="50,10 10,150 100,150 " />
-                                            <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
-                                </svg>
+                                            <svg version="1.1" x="0px" y="0px" viewBox="0 0 300 300" width="300px"
+                                        height="300px">
+                                                <polygon id="ligebenettrekant" class="st0" points="50,10 10,150 100,150 " />
+                                                <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
+                                    </svg>
 
-                                        <h2>Ligesidet trekant</h2>
+                                            <h2>Ligesidet trekant</h2>
 
-                                        <h4>Indtast din værdi</h4>
+                                            <h4>Indtast din værdi</h4>
 
-                                        <form>
-                                            <div>linje a <input type="number" id="ligesidet-a"></div><br />
-                                            <input class="btn btn-primary" type="reset">
-                                            <button class="btn btn-primary" onclick="beregnSide()">Beregn</button>
-                                        </form>
-                                        <p id="ligesidet-cer"></p>
-                                        <p id="Areal"></p>
+                                            <form>
+                                                <div>linje a <input type="number" id="ligesidet-a"></div><br />
+                                                <input class="btn btn-primary" type="reset">
+                                                <button class="btn btn-primary" onclick="beregnSide()">Beregn</button>
+                                            </form>
+                                            <p id="ligesidet-cer"></p>
+                                            <p id="Areal"></p>
 
-                                        <svg version="1.1" x="0px" y="0px" viewBox="0 0 300 300" width="300px" height="300px">
-                                            <polygon id="ligesidettrekant" class="st0" points="50,10 10,100 100,100 " />
-                                            <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
-                                </svg>
-                                    }
+                                            <svg version="1.1" x="0px" y="0px" viewBox="0 0 300 300" width="300px"
+                                        height="300px">
+                                                <polygon id="ligesidettrekant" class="st0" points="50,10 10,100 100,100 " />
+                                                <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
+                                    </svg>
+                                        }
+                                    </div>
                                 }
                             </div>
                         </div>
                     </div>
                 </div>
-            </main>
+            </div>
         </div>
     </div>
 </div>
