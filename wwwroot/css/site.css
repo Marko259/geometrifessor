@@ -12,6 +12,7 @@ a {
   color: #0366d6;
 }
 
+/* Giver den primære knap en blå farve med hvid tekst */
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
@@ -25,20 +26,9 @@ a {
   border-color: #1861ac;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: white;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: black;
-}
-
-navbar-light .navbar-nav .nav-link .active {
-  color: black;
-}
-
-.navbar-brand:hover {
-  color: white;
+.navbar-brand:hover, .nav-link:hover, 
+.nav-link.active {
+  color: #fff;
 }
 
 /* Sticky footer styles
@@ -90,21 +80,11 @@ body {
   line-height: 60px;
   /* Vertically center the text there */
 }
-/*
-ul.nav-pills {
-  position: fixed;
-}*/
 
 .st0 {
   fill: #ffffff88;
   stroke: #000000;
   stroke-miterlimit: 10;
-}
-
-.scrollspy {
-  position: relative;
-  height: 500px;
-  overflow-y: auto;
 }
 
 html {
@@ -118,6 +98,6 @@ html {
   border-bottom: 1px #000 dashed;
 }
 
-.bg {
+.navbar-dark, .bg-dark {
   background: radial-gradient(blue, black, darkred, black, purple)
 }
