@@ -34,17 +34,16 @@
                                 @foreach (var emne in EmneService.GetEmner())
                                 {
                                     <div id="@emne.Id">
-                                        <h1>@emne.Title</h1>
+                                        <h1>@emne.Title</h1><br/>
                                         @if (emne.Id == "retvinklet-trekanter")
                                         {
-                                            <h4>Indtast dine to værdier</h4>
+                                            <h4>Indtast værdierne</h4>
 
-                                            <form>
-                                                <div>linje a <input type="number" id="a"></div>
-                                                <div>linje b <input type="number" id="b"></div><br />
-                                                <input class="btn btn-primary" type="reset">
-                                                <button class="btn btn-primary" onclick="beregnC()">Beregn</button>
-                                            </form>
+
+                                            <div>Linje a <input type="number" id="a"></div>
+                                            <div>Linje b <input type="number" id="b"></div><br />
+                                            <button class="btn btn-primary" onclick="beregnC()">Beregn</button>
+
                                             <p id="cer"></p>
                                             <p id="Areal"></p>
 
@@ -58,14 +57,11 @@
                                         {
                                             <h2>Ligebenet trekant</h2>
 
-                                            <h4>Indtast dine værdier</h4>
+                                            <h4>Indtast værdierne</h4>
 
-                                            <form>
-                                                <div>linje a <input type="number" id="vilkårlig-a"></div>
-                                                <div>linje b <input type="number" id="vilkårlig-b"></div><br />
-                                                <input class="btn btn-primary" type="reset">
-                                                <button class="btn btn-primary" onclick="beregnBen()">Beregn</button>
-                                            </form>
+                                            <div>Linje a <input type="number" id="vilkårlig-a"></div>
+                                            <div>Linje b <input type="number" id="vilkårlig-b"></div><br />
+                                            <button class="btn btn-primary" onclick="beregnBen()">Beregn</button>
                                             <p id="vilkårlig-cer"></p>
                                             <p id="Areal"></p>
 
@@ -77,13 +73,10 @@
 
                                             <h2>Ligesidet trekant</h2>
 
-                                            <h4>Indtast din værdi</h4>
+                                            <h4>Indtast værdierne</h4>
 
-                                            <form>
-                                                <div>linje a <input type="number" id="ligesidet-a"></div><br />
-                                                <input class="btn btn-primary" type="reset">
-                                                <button class="btn btn-primary" onclick="beregnSide()">Beregn</button>
-                                            </form>
+                                            <div>Linje a <input type="number" id="ligesidet-a"></div><br />
+                                            <button class="btn btn-primary" onclick="beregnSide()">Beregn</button>
                                             <p id="ligesidet-cer"></p>
                                             <p id="Areal"></p>
 
@@ -92,6 +85,20 @@
                                                 <polygon id="ligesidettrekant" class="st0" points="50,10 10,100 100,100 " />
                                                 <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
                                     </svg>
+                                        } else if (@emne.Id == "firkanter") {
+                                            <h2>Rektanklet Firkant</h2>
+
+                                            <h4>Indtast værdierne</h4>
+                                            
+                                            <div>Linje a <input type="number" id="rektankel-a"></div>
+                                            <div>Linje b <input type="number" id="rektankel-b"></div>
+                                            <button class="btn btn-primary" onclick="beregnRektankel()">Beregn</button>
+                                            <p id="rektankel-cer"></p>
+                                            <p id="Areal"></p>
+
+                                            <svg version="1.1" x="0px" y="0px" viewBox="0 0 300 300" width="300px" height="300px">
+                                                <rect width="100" height="100" class="st0" id="rektankel" />
+                                            </svg>
                                         }
                                     </div>
                                 }
