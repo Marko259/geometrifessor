@@ -231,7 +231,6 @@ C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Emne.cshtml
 C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Emner.cshtml.g.cs
 C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -387,3 +386,8 @@ C:\Users\User\Documents\GitHub\geometrifessor\obj\Debug\net5.0\geometrifessor.dl
 C:\Users\User\Documents\GitHub\geometrifessor\obj\Debug\net5.0\ref\geometrifessor.dll
 C:\Users\User\Documents\GitHub\geometrifessor\obj\Debug\net5.0\geometrifessor.pdb
 C:\Users\User\Documents\GitHub\geometrifessor\obj\Debug\net5.0\geometrifessor.genruntimeconfig.cache
+C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\RazorDeclaration\Components\Beregnerliste.razor.g.cs
+C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Components\Beregnerliste.razor.g.cs
+C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Beregner.cshtml.g.cs
+C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Beregnere.cshtml.g.cs
+C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\Razor\Pages\Credit.cshtml.g.cs

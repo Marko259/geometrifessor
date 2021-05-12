@@ -26,7 +26,8 @@ a {
   border-color: #1861ac;
 }
 
-.navbar-brand:hover, .nav-link:hover, 
+.navbar-brand:hover,
+.nav-link:hover,
 .nav-link.active {
   color: #fff;
 }
@@ -93,11 +94,12 @@ html {
 
 #side .nav-link.active,
 #side .nav-link:hover,
-#side .nav-link:focus{
+#side .nav-link:focus {
   color: #111;
   border-bottom: 1px #000 dashed;
 }
 
-.navbar-dark, .bg-dark {
-  background: radial-gradient(blue, black, darkred, black, purple)
+.navbar-dark,
+.bg-dark {
+  background: linear-gradient(red, black, black, black, black)
 }
