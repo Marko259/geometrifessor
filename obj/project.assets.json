@@ -6232,19 +6232,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\YooNazZ\\.nuget\\packages\\": {}
+    "C:\\Users\\Markus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\YooNazZ\\Desktop\\geometrifessor\\geometrifessor.csproj",
+      "projectUniqueName": "C:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\geometrifessor.csproj",
       "projectName": "geometrifessor",
-      "projectPath": "C:\\Users\\YooNazZ\\Desktop\\geometrifessor\\geometrifessor.csproj",
-      "packagesPath": "C:\\Users\\YooNazZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\YooNazZ\\Desktop\\geometrifessor\\obj\\",
+      "projectPath": "C:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\geometrifessor.csproj",
+      "packagesPath": "C:\\Users\\Markus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\YooNazZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Markus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6293,7 +6293,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
