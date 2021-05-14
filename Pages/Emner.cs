@@ -13,8 +13,8 @@ namespace geometrifessor.Pages
     public class ViewModel : PageModel
     {
         private readonly ILogger<ViewModel> _logger;
-        public JsonEmneService EmneService;
-        public IEnumerable<Emner> Emne { get; private set; }
+        public JsonEmneService EmneService; // Her defineres funktionen EmneService med udganspunkt i JsonEmneService
+        public IEnumerable<Emner> Emne { get; private set; } // Her defineres Emne
 
         public ViewModel(ILogger<ViewModel> logger, JsonEmneService emneService)
         {
@@ -24,7 +24,7 @@ namespace geometrifessor.Pages
 
         public void OnGet()
         {
-            Emne = EmneService.GetEmner();
+            Emne = EmneService.GetEmner(); // Her kaldes funktionen EmneService hvor man får alle emnerne
         }
     }
 }

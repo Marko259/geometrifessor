@@ -1,15 +1,15 @@
 ﻿@page
 @using geometrifessor.Components
-@model ViewModel
+@model ViewModel // Her vælges hvilken side model som siden bruger
 @{
-    ViewData["Title"] = "Emner";
+    ViewData["Title"] = "Emner"; // Her der defineres side titlen hvilket bruges i _Layout.cshtml
 }
 <h1>@ViewData["Title"]</h1>
 
 <p>Vælg det emne du gerne vil lære mere om.</p>
 <br />
 
-@(await Html.RenderComponentAsync<Emneliste>(RenderMode.ServerPrerendered))
+@(await Html.RenderComponentAsync<Emneliste>(RenderMode.ServerPrerendered)) <!-- Her indsættes indholdet fra Emneliste.razor -->
 
-<script src="_framework/blazor.server.js"></script>
+<script src="_framework/blazor.server.js"></script> <!-- Her importeres det framework som kræves for at importere Emneliste.razor -->
 

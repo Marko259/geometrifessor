@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace geometrifessor.Pages
 {
-    public class PrivacyModel : PageModel
+    public class CreditModel : PageModel // Her laves en klasse hvor der defineres hvilken form for model Index.cshtml bruger og hvad den har adgang til.
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<CreditModel> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public CreditModel(ILogger<CreditModel> logger)
         {
             _logger = logger;
         }

@@ -5,21 +5,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Geometrifessor</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> <!-- her importeres biblioteket bootstrap -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> <!-- her importeres biblioteket font-awesome -->
+    <link rel="stylesheet" href="~/css/site.css" /> <!-- vores css fil importeres -->
 </head>
 
 <body data-spy="scroll" data-target="#Scrollspy" data-offset="1">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- vors navbar laves med vha. bootstrap biblioteket -->
             <a class="navbar-brand font-weight-bold" asp-area="" asp-page="/Index">Geometrifessor</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> <!-- denne knap vises kun hvis hjemmesiden bliver åbnet via en telefon eller lignende. -->
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- her laver vi hvor vores links skal føre hen -->
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link font-weight-bold" asp-area="" asp-page="/Index">Forside</a>
@@ -39,17 +39,17 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+            @RenderBody() <!-- her kaldes den side som vælges i navbaren -->
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted"> <!-- her bruger vi bootstrap til at lave vores footer -->
         <div class="container" style="text-align:center;">
-            &copy; @DateTime.Now.Year - Geometrifessor - <a asp-area="" asp-page="/Credit">Credit</a>
+            &copy; @DateTime.Now.Year - Geometrifessor - <a asp-area="" asp-page="/Credit">Credit</a> <!-- her kaldes det nuværende årstal til vores 'copyright' del af footeren -->
         </div>
     </footer>
 
-    <script>
+    <script> // Dette script læser den side man er på og tilføjer klassen 'active' for at vise med en lys farve hvilken side man er på. Den skifter henholdsvis til den side man skifter til.
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('.nav-link').forEach(link => {
                 if (link.getAttribute('href').toLowerCase() === location.pathname.toLowerCase()) {
@@ -61,9 +61,9 @@
         })
     </script>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script> <!-- her importeres jquery biblioteket -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> <!-- Der importeres script delen til bootstrap biblioteket -->
+    <script src="~/js/site.js" asp-append-version="true"></script> <!-- her importeres vores egen javascript fil. -->
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

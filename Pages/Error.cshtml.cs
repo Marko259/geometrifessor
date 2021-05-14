@@ -11,7 +11,7 @@ namespace geometrifessor.Pages
 {
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     [IgnoreAntiforgeryToken]
-    public class ErrorModel : PageModel
+    public class ErrorModel : PageModel // Her laves en klasse hvor der defineres hvilken form for model Error.cshtml bruger og hvad den har adgang til. Derudover bruges den også til at vise hvilken fejl der er hvis en fejl eksistere.
     {
         public string RequestId { get; set; }
 

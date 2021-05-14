@@ -1,15 +1,15 @@
 ﻿@page
 @using geometrifessor.Components
-@model BeregnModel
+@model BeregnModel // Her vælges hvilken side model som siden bruger
 @{
-    ViewData["Title"] = "Beregnere";
+    ViewData["Title"] = "Beregnere"; // Her der defineres side titlen hvilket bruges i _Layout.cshtml
 }
 <h1>@ViewData["Title"]</h1>
 
 <p>Vælg den beregner du gerne vil bruge.</p>
 <br />
 
-@(await Html.RenderComponentAsync<Beregnerliste>(RenderMode.ServerPrerendered))
+@(await Html.RenderComponentAsync<Beregnerliste>(RenderMode.ServerPrerendered)) <!-- Her indsættes indholdet fra Emneliste.razor -->
 
-<script src="_framework/blazor.server.js"></script>
+<script src="_framework/blazor.server.js"></script> <!-- Her importeres det framework som kræves for at importere Emneliste.razor -->
 

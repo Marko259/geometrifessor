@@ -253,7 +253,6 @@ C:\Users\YooNazZ\Desktop\geometrifessor\obj\Debug\net5.0\geometrifessor.genrunti
 >>>>>>> 0c22a5f572c601f11760944b9ab0bec87b5e3911
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\RazorDeclaration\Components\Beregnerliste.razor.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Components\Beregnerliste.razor.g.cs
-C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Beregner.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Credit.cshtml.g.cs
 C:\Users\Markus\Documents\GitHub\geometrifessor\obj\Debug\net5.0\Razor\Pages\Beregnere.cshtml.g.cs
 C:\Users\User\Documents\GitHub\geometrifessor\bin\Debug\net5.0\appsettings.Development.json

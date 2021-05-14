@@ -1,13 +1,13 @@
 ﻿@page
 @model ErrorModel
 @{
-    ViewData["Title"] = "Error";
+    ViewData["Title"] = "Error"; // Her der defineres side titlen, hvilket bruges i _Layout.cshtml
 }
 
 <h1 class="text-danger">Error.</h1>
 <h2 class="text-danger">An error occurred while processing your request.</h2>
 
-@if (Model.ShowRequestId)
+@if (Model.ShowRequestId) // her bruges en if begrening til at vise hvis der er en fejl.
 {
     <p>
         <strong>Request ID:</strong> <code>@Model.RequestId</code>

@@ -1,13 +1,14 @@
 ﻿@page
 @using geometrifessor.Components
-@model PrivacyModel
+@model CreditModel
 @{
-    ViewData["Title"] = "Credits";
+    ViewData["Title"] = "Credits"; // Her der defineres side titlen hvilket bruges i _Layout.cshtml
 }
 <h1>@ViewData["Title"]</h1>
 
 <p>Denne side er lavet af tre elver fra 2.H på HTX Hillerød</p>
 
+<!-- Her bruges bootstrap biblioteket til at lave 'cards' til at vise vores navn og billede med et godt layout. -->
 <div class="container">
     <div class="row">
         <div class="col-md-4 mb-3 d-flex align-self-stretch">

@@ -5,12 +5,12 @@
 @inject JsonEmneService EmneService
 @model EmneModel
 @{
-    ViewData["Title"] = "Emne";
-    var value = RouteData.Values["Id"].ToString();
+    ViewData["Title"] = "Emne"; // Her der defineres side titlen hvilket bruges i _Layout.cshtml
+    var value = RouteData.Values["Id"].ToString(); // her defineres variablet value ved at man får emne id fra ASPNETCORE biblioteket vha. RouteData som får dataen fra url.
 }
-@foreach (var emne in EmneService.GetEmner())
+@foreach (var emne in EmneService.GetEmner()) // Her bruges iterationen foreach til at bestemme variablet emne in funktionen EmneService.GetEmner() Det gør at når variable emne bruges så kalder den EmneService.GetEmner()
 {
-    if (emne.Id == value) 
+    if (emne.Id == value) // her bruges forgreningen if for at den kun viser data for det specifike emne.
     {  
         <h1>@ViewData["Title"] - @emne.Title</h1><br/>
         <div class="container">

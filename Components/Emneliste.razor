@@ -1,10 +1,10 @@
 @using Microsoft.AspNetCore.Components.Web
 @using geometrifessor.Models
 @using geometrifessor.Services
-@inject JsonEmneService EmneService
-<div class="container">
+@inject JsonEmneService EmneService 
+<div class="container"> <!-- her bruger vi bootstraps container system til at vise de forskellige emner med fint layout-->
     <div class="row">
-        @foreach (var emne in EmneService.GetEmner())
+        @foreach (var emne in EmneService.GetEmner()) // Her bruges iterationen foreach til at bestemme variablet emne in funktionen EmneService.GetEmner() Det gør at når variable emne bruges så kalder den EmneService.GetEmner()
         {
             <div class="col-md-4 mb-3 d-flex align-self-stretch">
                 <div class="card" style="width: 18rem;">
@@ -19,7 +19,7 @@
     </div>
 </div>
 
-@if (selectedEmne != null)
+@if (selectedEmne != null) // Her bruger vi forgrening if hvis vores void 'selectedEmne' ikke er lig nul så kalder den det pågældende data.
 {
     <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -47,10 +47,10 @@
 
 @code
 {
-    Emner selectedEmne;
-    string selectedEmneId;
+    Emner selectedEmne; // her kaldes Klassen Emner og omdefineres til selectedEmne
+    string selectedEmneId; // her laves en string til at få det valgte emnes id
 
-    void SelectEmne(string productId)
+    void SelectEmne(string productId) // laves en void til SelectEmne hvor det bruger stringen productId til at vælge emnet i vores json fil.
     {
         selectedEmneId = productId;
         selectedEmne = EmneService.GetEmner().First(x => x.Id == productId);
