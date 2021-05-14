@@ -14,13 +14,10 @@
                                 <a class="nav-link active" href="#retvinklet-trekanter">Retvinklet trekanter</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#vilkårlige-trekanter">Vilkårlige trekanter</a>
+                                <a class="nav-link" href="#ligebenet-trekanter">Ligebenet trekanter</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#firkanter">Firkanter</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#femkanter">Femkanter</a>
+                                <a class="nav-link" href="#ligesidet-trekanter">Ligesidet trekanter</a>
                             </li>
                         </ul>
                     </nav>
@@ -34,7 +31,7 @@
                                 @foreach (var emne in EmneService.GetEmner())
                                 {
                                     <div id="@emne.Id">
-                                        <h1>@emne.Title</h1><br/>
+                                        <h1>@emne.Title</h1><br />
                                         @if (emne.Id == "retvinklet-trekanter")
                                         {
                                             <h4>Indtast værdierne</h4>
@@ -53,7 +50,7 @@
                                                 <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
                                     </svg>
                                         }
-                                        else if (emne.Id == "vilkårlige-trekanter")
+                                        else if (emne.Id == "ligebenet-trekanter")
                                         {
                                             <h2>Ligebenet trekant</h2>
 
@@ -70,7 +67,9 @@
                                                 <polygon id="ligebenettrekant" class="st0" points="50,10 10,150 100,150 " />
                                                 <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
                                     </svg>
-
+                                        }
+                                        else if (@emne.Id == "ligesidet-trekanter")
+                                        {
                                             <h2>Ligesidet trekant</h2>
 
                                             <h4>Indtast værdierne</h4>
@@ -85,20 +84,6 @@
                                                 <polygon id="ligesidettrekant" class="st0" points="50,10 10,100 100,100 " />
                                                 <!-- polygon kan lave figurer i med forskelligt antal sider se https://www.w3schools.com/graphics/svg_polygon.asp.-->
                                     </svg>
-                                        } else if (@emne.Id == "firkanter") {
-                                            <h2>Rektanklet Firkant</h2>
-
-                                            <h4>Indtast værdierne</h4>
-                                            
-                                            <div>Linje a <input type="number" id="rektankel-a"></div>
-                                            <div>Linje b <input type="number" id="rektankel-b"></div>
-                                            <button class="btn btn-primary" onclick="beregnRektankel()">Beregn</button>
-                                            <p id="rektankel-cer"></p>
-                                            <p id="Areal"></p>
-
-                                            <svg version="1.1" x="0px" y="0px" viewBox="0 0 300 300" width="300px" height="300px">
-                                                <rect width="100" height="100" class="st0" id="rektankel" />
-                                            </svg>
                                         }
                                     </div>
                                 }

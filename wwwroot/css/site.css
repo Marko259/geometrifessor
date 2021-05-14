@@ -103,3 +103,13 @@ html {
 .bg-dark {
   background: linear-gradient(red, black, black, black, black)
 }
+
+.carousel .carousel-indicators li{
+  background-color: #fff;
+  background-color: rgba(70, 70, 70, .25);
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+}

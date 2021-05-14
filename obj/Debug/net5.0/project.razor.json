@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 561337825,
-        "Kind": "Components.Component",
-        "Name": "geometrifessor.Components.Beregnerliste",
-        "AssemblyName": "geometrifessor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Beregnerliste"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "geometrifessor.Components.Beregnerliste"
-        }
-      },
-      {
-        "HashCode": 497973000,
-        "Kind": "Components.Component",
-        "Name": "geometrifessor.Components.Beregnerliste",
-        "AssemblyName": "geometrifessor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "geometrifessor.Components.Beregnerliste"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "geometrifessor.Components.Beregnerliste",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -534040508,
         "Kind": "Components.Component",
         "Name": "geometrifessor.Components.Emneliste",
@@ -74,6 +41,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "geometrifessor.Components.Emneliste",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 561337825,
+        "Kind": "Components.Component",
+        "Name": "geometrifessor.Components.Beregnerliste",
+        "AssemblyName": "geometrifessor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Beregnerliste"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "geometrifessor.Components.Beregnerliste"
+        }
+      },
+      {
+        "HashCode": 497973000,
+        "Kind": "Components.Component",
+        "Name": "geometrifessor.Components.Beregnerliste",
+        "AssemblyName": "geometrifessor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "geometrifessor.Components.Beregnerliste"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "geometrifessor.Components.Beregnerliste",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15753,11 +15753,6 @@
       "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Components\\Emneliste.razor",
       "TargetPath": "Components\\Emneliste.razor",
       "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\Markus\\Documents\\GitHub\\geometrifessor\\Pages\\Beregner.cshtml",
-      "TargetPath": "Pages\\Beregner.cshtml",
-      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

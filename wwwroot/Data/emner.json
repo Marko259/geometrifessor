@@ -3,28 +3,21 @@
     "id": "retvinklet-trekanter",
     "img": "https://matnat.dk/media/images/retvinklet%20trekant.png",
     "title": "Retvinklet trekanter",
-    "description": "En trekant. hvor en af vinklerne er 90º. kaldes retvinklet. Når man tegner en ret vinkel, plejer man at markere. at den er ret ved at tegne den firkantet i stedet for buet. I retvinklede trekanter gælder pythagoras. altså a^2+b^2=c^2",
+    "description": "En retvinklet trekant, er en trekant, hvor den ene vinkel er 90° (i 360 graders systemet). Den rette vinkel markeres tit med et lille kvadrat. Der er nogle særlige formler for retvinklede trekanter, og samtidigt danner de grundlaget for sinus og cosinus. I retvinklede trekanter gælder pythagoras. Altså a^2+b^2=c^2",
     "shortdescription": "Alt du skal vide om retvinklet trekanter"
   },
   {
-    "id": "vilkårlige-trekanter",
-    "img": "https://www.regneregler.dk/g_images/abc-trekant-1326.png",
-    "title": "Vilkårlige trekanter",
-    "description": "Vilkårlige trekanter er alle polygoner. der har tre sider og en vinkelsum på 180 grader. En vilkårlig trekant er derfor en hvilken som helst trekant. du kan forestille dig på en flad overflade. For de vilkårlige trekanter. der ikke indeholder rette vinkler, er man nødt til at bruge enten sinusrelationen eller cosinusrelationen for at beregne sider og vinkler.",
-    "shortdescription": "Alt man skal vide om vilkårlige trekanter"
+    "id": "ligebenet-trekanter",
+    "img": "https://www.regneregler.dk/g_images/ligebenet-trekant-1327.png",
+    "title": "Ligebenet trekanter",
+    "description": "En trekant siges at være ligebenet, hvis to sider er lige lange, og to vinkler er lige store. Trekantens ben og grundlinjen: De to sider, som er lige lange, kaldes trekantens ben. Den sidste er grundlinjen. På tegningen er trekantens ben a=b og c er grundlinjen. Grundvinklerne og topvinklen: Grundvinklerne er de to vinkler, som er lige store. Den sidste vinkel kaldes for topvinklen. På tegningen er grundvinklerne A=B og topvinklen er C. Højden for en ligebenet trekant: Højden på grundlinjen deler topvinklen i to lige store dele. Da den også deler grundlinjen i to lige store dele, er højden både vinkelhalveringslinje og midtnormal. Vinklerne A og B er lige store. Sidelængderne a og b er lige lange.",
+    "shortdescription": "Alt man skal vide om Ligebenet trekanter"
   },
   {
-    "id": "firkanter",
-    "img": "https://www.webmatematik.dk/media/6472/masterfile_standalone-24_357x170.jpg",
-    "title": "Firkanter",
-    "description": "Begrebet firkant dækker alle de geometriske figurer der har a) fire sider og b) fire vinkler. Yderligere gælder der at 1. Summen af vinkler i en firkant altid er 360º og 2. Hver firkant har to diagonaler.",
-    "shortdescription": "Alt du skal vide om firkanter"
-  },
-  {
-    "id": "femkanter",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/6/6b/SimplePentagon.png",
-    "title": "Femkanter",
-    "description": "En femkant eller et pentagon, er en figur med fem sider og fem vinkler. En femkant er dermed et polygon med fem hjørner. I en femkant er vinkelsummen 540º. Så hvis man måler alle vinkler og lægger dem sammen får man 540º ligemeget hvordan femkanten ser ud.",
-    "shortdescription": "Alt du skal vide om Femkanter"
+    "id": "ligesidet-trekanter",
+    "img": "https://www.regneregler.dk/g_images/ligesidet-trekant-1328.png",
+    "title": "Ligesidet trekanter",
+    "description": "I en ligesidet trekant er alle sidelængder og vinkler lige store. Vinklerne er 60°. I trekanten ABC er vinklerne A=B=C=60° og sidelængderne a=b=c.",
+    "shortdescription": "Alt du skal vide om Ligesidet trekanter"
   }
 ]
