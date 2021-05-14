@@ -7,7 +7,8 @@
         <div class="row h-100 mt-5">
             <aside class="col-md-3 bg-light" id="left">
                 <div class="mt-5 mb-3 sticky-top" id="side">
-                    <nav class="nav flex-md-column flex-row justify-content-between" id="Scrollspy"> <!-- vi bruger bootstrap til at lave en fin navbar som bruger scrollspy funktionen til at opdatere navbaren. -->
+                    <nav class="nav flex-md-column flex-row justify-content-between" id="Scrollspy"> <!-- vi bruger bootstrap til at lave en fin navbar som bruger scrollspy 
+                    funktionen til at opdatere navbaren. -->
                         <ul class="nav nav-pills flex-column">
                             <h1>Emner</h1>
                             <li class="nav-item">
@@ -28,7 +29,8 @@
                     <div class="col">
                         <div class="tab-content py-3 position-relative">
                             <div class="tab-pane active position-relative" id="tab1" role="tabpanel">
-                                @foreach (var emne in EmneService.GetEmner()) // Her bruges iterationen foreach til at bestemme variablet emne in funktionen EmneService.GetEmner() Det gør at når variable emne bruges så kalder den EmneService.GetEmner()
+                                @foreach (var emne in EmneService.GetEmner()) // Her bruges iterationen foreach til at bestemme variablet emne in funktionen EmneService.GetEmner() 
+                                //Det gør at når variable emne bruges så kalder den EmneService.GetEmner()
                                 {
                                     <div id="@emne.Id">
                                         <h1>@emne.Title</h1><br />

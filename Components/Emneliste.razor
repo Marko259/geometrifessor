@@ -4,7 +4,8 @@
 @inject JsonEmneService EmneService 
 <div class="container"> <!-- her bruger vi bootstraps container system til at vise de forskellige emner med fint layout-->
     <div class="row">
-        @foreach (var emne in EmneService.GetEmner()) // Her bruges iterationen foreach til at bestemme variablet emne in funktionen EmneService.GetEmner() Det gør at når variable emne bruges så kalder den EmneService.GetEmner()
+        @foreach (var emne in EmneService.GetEmner()) // Her bruges iterationen foreach til at bestemme variablet emne in funktionen EmneService.GetEmner() 
+        //Det gør at når variable emne bruges så kalder den EmneService.GetEmner()
         {
             <div class="col-md-4 mb-3 d-flex align-self-stretch">
                 <div class="card" style="width: 18rem;">
